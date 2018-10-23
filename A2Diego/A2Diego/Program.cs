@@ -8,6 +8,7 @@ namespace A2Diego
 {
     class Program
     {
+        //Crie um programa em C# que determina se o cliente de uma loja de departamentos ultrapassou o limite de crédito em uma conta.
         public class Cliente
         {
             private int saldo;
@@ -47,9 +48,8 @@ namespace A2Diego
             substitua cada dígitos por(a soma desse dígitos mais 7) módulo 10.Em seguida, troque o primeiro dígito
             pelo terceiro e troque o segundo dígito pelo quarto e imprima o inteiro criptografado.*/
 
-            //
 
-            //Crie um programa em C# que determina se o cliente de uma loja de departamentos ultrapassou o limite de crédito em uma conta.
+            //Questão 02
             Console.WriteLine("Digite o saldo atual ");
             int saldo = int.Parse(Console.ReadLine());
 
